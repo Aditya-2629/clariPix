@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ImageUpload from "./ImageUpload";
 import ImagePreview from "./ImagePreview";
 import { enhancedImageApi } from "../utils/enhancedImageApi";
-// import DarkToggle from "./DarkToggle"; // import toggle button
+import DarkToggle from "./DarkToggle"; // import toggle button
 
 const Home = () => {
   const [uploadImage, setUploadImage] = useState(null);
@@ -34,6 +34,7 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-all duration-300 text-gray-900 dark:text-white px-4 py-6">
+      <DarkToggle />
       {/* Header */}
       <header className="text-center mb-10">
         <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
