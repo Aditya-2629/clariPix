@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const baseUrl = "https://techhk.aoscdn.com/api/tasks/visual/scale";
-const apiKey = import.meta.env.VITE_API_KEY;
+const apiKey = import.meta.env.VITE_API_KEY || "wxjhd4nm8wncpnc8t";
 
 // console.log("API Key:", apiKey); // Debugging line to check if API key is loaded correctly
 

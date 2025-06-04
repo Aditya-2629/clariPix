@@ -1,5 +1,4 @@
 import Home from "./components/Home";
-import DarkToggle from "./components/DarkToggle";
 
 const App = () => {
   return (
